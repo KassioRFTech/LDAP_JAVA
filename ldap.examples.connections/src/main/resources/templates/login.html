@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link type="text/css" rel="stylesheet" href="login.css"></link>
+    <title>Login - Active Directory</title>
+</head>
+<body>
+	<div id="principal">
+		<div id="topo"><h1 class="titulo">Active Directory</h1></div>
+		<div id="meio">
+			<form class="formulario" th:action="@{/login}" method="post">
+				<div>
+					<input class="usuario" type="text" name="username" placeholder="Usuario" />
+				</div>
+				<div>
+					<input class="senha" type="password" name="password" placeholder="Senha" />
+				</div>
+				<input class="botao" type="submit" value="Login" />
+			</form>
+		</div>
+		<div id="baixo"><h2 class="titulo-baixo">@credicap.local</h2></div>
+	</div>
+	
+	<script src="login.js"></script>
+</body>
+</html>

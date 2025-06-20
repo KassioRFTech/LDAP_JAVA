@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #e1edf0;
+}
+
+#blogout{
+	margin: 50px 0 0 800px;
+	border: none;
+	width: 150px;
+	padding: 5px;
+	border-radius: 7px;
+	background-color: #00A697;
+	color: white;
+	
+}
+
+#blogout:hover{
+	cursor: pointer;
+	box-shadow: 0 0 0.8em #00A697;
+	transition: 1s;
+}
+
+#topo{
+	display: flex;
+	flex-direction: row;
+    height: 90px;
+    background-color: #003b49;
+    border-bottom: solid black 4px;
+    border-top: solid black 4px;
+}
+
+#logo{
+    text-align: left;
+    padding: 25px;
+    color: white;
+}
+
+#lateral {
+    width: 270px;
+    height: 100vh;
+    background-color: white;
+    border-right: solid black 2px;
+    position: fixed;
+}
+
+.infoPas{
+    text-align: center;
+    padding-top: 5px;
+    height: 30px;
+    border-bottom: solid black 2px;
+}
+
+.infoPas:hover{
+    background-color: #e4dfdf;
+    transition: background-color 1.0s;
+    cursor: pointer;
+}
+
+.seta{
+    position: relative;
+    width: 15px;
+    left: 60px;
+    top: 2px;
+}
+
+.casa{
+    position: relative;
+    width: 15px;
+    right: 140px;
+    top: 3px;
+}
+
+.cidade-container{
+    margin-top: 10px;
+    max-height: 200px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.cidades{
+    text-align: center;
+    transition: opacity 0.4s ease, transform 0.4s ease;
+    margin-top: 15px;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.cidades:hover{
+    background-color: #00A697;
+    cursor: pointer;
+    transition: 1.0s;
+    color: white;
+	box-shadow: 0 0 0.8em #00A697;
+}
+
+.cidades:focus{
+    background-color: #00A697;
+    color: white;
+	box-shadow: 0 0 0.8em #00A697;
+}
+
+.users-container{
+    margin: 50px 350px 0 auto;
+    max-width: 1200px;
+    height: 700px;
+    border: solid black 2px;
+    border-radius: 10px;
+	
+}
+
+.users-top{
+    border-bottom: 2px solid black;
+    text-align: center;
+    padding: 7px;
+    background-color: #00A697;
+    font-size: 25px;
+    color: white;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.users-mid{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: white;
+    height: 656px;
+    max-height: 656px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.users-int-principal{
+    border: solid black 1px;
+    border-radius: 10px;
+    width: 300px;
+    height: 310px;
+    margin: 7px 40px 7px 50px;
+	box-shadow: 0 0 7px #00A697;
+}
+
+.users-int-top{
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 5px;
+    background-color: #00A697;
+    font-size: 17px;
+    color: white;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    height: 20px;
+}
+
+.users-int-mid{
+    background: linear-gradient(to left, #A8D4001A, #006F6A1A, #84bd001A, #00A79D1A);
+    width: 300px;
+    height: 279px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    word-wrap: break-word;     
+    overflow-wrap: break-word;   
+    white-space: normal; 
+    font-size: 17px;
+}
+
+.grupo{
+    overflow-x: hidden;
+    max-height: 120px;
+    border-radius: 2px;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    background-color: white;
+    display: none;
+
+}
+
+.seta-grupo{
+    position: relative;
+    width: 12px;
+    left: 5px;
+    top: 1px;
+    cursor: pointer;
+}
+
+.users-int-bottom{
+    margin: -30px auto 0 auto;
+    width: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lock{
+    width: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.lock:hover{
+    transform: scale(1.4);
+    transition: 1s;
+}
+
+.unlock{
+    width: 20px;
+    cursor: pointer;
+}
+
+.unlock:hover{
+    transform: scale(1.4);
+    transition: 1s;
+}
+
+.password{
+    width: 20px;
+    cursor: pointer;
+}
+
+.password:hover{
+    transform: scale(1.4);
+    transition: 1s;
+}
